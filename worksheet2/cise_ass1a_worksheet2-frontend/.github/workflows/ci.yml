@@ -27,7 +27,7 @@ jobs:
         run: npm install
 
       - name: Run the tests
-        run: npm test  # Corrected typo from 'rin' to 'run'
+        run: npm test
 
       - name: Build
         run: npm run build
